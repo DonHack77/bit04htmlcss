@@ -1,0 +1,42 @@
+.navegacion {
+  background: rgb(255, 255, 255);
+  color: rgb(14, 0, 0);
+  text-align: center;
+}
+
+.imagenes {
+  float: left;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+body {
+  background: rgb(172, 60, 166);
+  border: 20;
+}
+
+
+
+p {
+  text-align: justify;
+  padding-left: 5px;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+.col-12{
+    width: 100%;
+}
+.col-4 {
+  width: 22.2%;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+.row::after {
+  content:none;
+  clear: both;
+  display: table;
+}
